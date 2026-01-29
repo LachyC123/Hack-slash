@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Sprite Fighter (Mobile Joystick)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="c"></canvas>
+
+  <div id="ui">
+    <div id="joy" aria-label="Joystick">
+      <div id="joyBase"></div>
+      <div id="joyStick"></div>
+    </div>
+
+    <div id="actions">
+      <button id="btnPunch" aria-label="Punch">Punch</button>
+      <button id="btnSlide" aria-label="Slide">Slide</button>
+    </div>
+
+    <div id="hint">
+      Move: joystick (mobile) / WASD (desktop) • Punch: J • Slide: Shift
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
