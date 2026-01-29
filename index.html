@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Sprite Fighter (Goblins v2)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="c"></canvas>
+
+  <div id="ui">
+    <div id="joy">
+      <div id="joyBase"></div>
+      <div id="joyStick"></div>
+    </div>
+
+    <div id="actions">
+      <button id="btnAttack">Attack</button>
+      <button id="btnSlide">Slide</button>
+    </div>
+
+    <div id="hud">
+      <div>HP: <span id="hp">100</span></div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Wave: <span id="wave">1</span></div>
+    </div>
+
+    <div id="hint">Joystick move • Attack/Slide buttons • GitHub Pages</div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
