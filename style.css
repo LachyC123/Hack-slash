@@ -1,0 +1,38 @@
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+  overflow:hidden;
+  background:#0b0f14;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  touch-action:none;
+}
+#c{ display:block; width:100vw; height:100vh; }
+
+#ui{
+  position:fixed;
+  left:0; right:0; bottom:0;
+  padding:12px;
+  pointer-events:none;
+}
+#ui .row{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  pointer-events:auto;
+}
+#ui button{
+  padding:12px 16px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.9);
+  font-weight:700;
+}
+#ui button:active{ transform: translateY(1px); }
+#ui .hint{
+  margin-top:10px;
+  text-align:center;
+  color: rgba(255,255,255,0.65);
+  font-size: 12px;
+}
