@@ -9,7 +9,7 @@ const PLAYER = {
 
   // If your player is using the wrong attack row, swap 6 <-> 7 here.
   // row 6 is often punch, row 7 often sword slash.
-  row: { idle: 0, run: 1, attack: 7, slide: 9 },
+  row: { idle: 0, run: 1, attack: 6, slide: 9 },
 
   fps: { idle: 6, run: 12, attack: 16, slide: 14 },
 };
